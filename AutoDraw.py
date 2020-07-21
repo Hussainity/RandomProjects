@@ -12,7 +12,7 @@ import numpy as np
 from google_images_search import GoogleImagesSearch
 import keyboard
 
-query = input("What should we draw?")
+query = input("What should we draw? ")
 
 #######################################################
 

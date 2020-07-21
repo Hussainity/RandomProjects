@@ -3,7 +3,7 @@ Usage:
 You'll need to pip install pyautogui, PIL, numpy, google_images_search, and keyboard
 Just execute 'python AutoDraw.py'
 Type in what you want to draw
-Go to a painting program, and press your shortcut (defuault is alt+x)
+Go to a painting program, ready your drawing tool, and press your shortcut (defuault is alt+x)
 '''
 import pyautogui as pag
 import PIL

@@ -75,7 +75,7 @@ if (USELINES):
                         data[row + count, col] = 0
                         count += 1
                     else:
-                        break
+                        break # look no one likes long while loop conditions ok
                 data[row, col] = count
 
 

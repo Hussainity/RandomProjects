@@ -11,10 +11,10 @@ query = input()
 
 # User Specifc Settings
 
-cx = '016628267995734866728:ysx7l9q2hem'
-key = 'AIzaSyAQuEVRF_LQKbXmqD5sUOKGWyAvi2jj2iE'
+cx = '016628267995734866728:ysx7l9q2hem' # you can use my image search engine
+key = 'get a google developer key'
 
-path = 'C:\\Users\\hussa\\Documents\\PersonalProjects\\AutoDraw\\Images\\'
+path = 'wherever\you\want'
 
 ##########################################################
 

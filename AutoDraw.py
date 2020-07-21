@@ -1,3 +1,10 @@
+'''
+Usage:
+You'll need to pip install pyautogui, PIL, numpy, google_images_search, and keyboard
+Just execute 'python AutoDraw.py'
+Type in what you want to draw
+Go to a painting program, and press your shortcut (defuault is alt+x)
+'''
 import pyautogui as pag
 import PIL
 from PIL import Image
@@ -5,15 +12,17 @@ import numpy as np
 from google_images_search import GoogleImagesSearch
 import keyboard
 
-query = input()
+query = input("What should we draw?")
 
 #######################################################
 
 # User Specifc Settings
 
+# Reference: https://pypi.org/project/Google-Images-Search/
 cx = '016628267995734866728:ysx7l9q2hem' # you can use my image search engine
-key = 'get a google developer key'
+key = 'get a google developer key' # make sure the api for Custom Image Search is activated
 
+# Where image files will be stored/read
 path = 'wherever\you\want'
 
 ##########################################################
@@ -26,7 +35,7 @@ pixel_dim = 2 # based on thickness of pen on screen
 
 USELINES = True # draw lines instead of pixels - faster
 
-n = 100 # image width
+n = 100 # image width (maintains aspect ratio)
 
 shortcut = 'alt+x' # hotkey to start drawing
 
